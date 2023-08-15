@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./sign-in.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica&family=Jost&family=Lato:wght@300&family=Merriweather:wght@700&family=Raleway:ital,wght@0,300;1,200&display=swap" 
+    rel="stylesheet"> 
+</head>
+<body>
+    <!-- body 0 -->
+    <!-- header + slider + search box -->
+    <div class="body0">
+        <!-- header -->
+        <section id="header">
+          <div class="brand">
+            <a href="../index.html"><img class="logo-brand" src="./logo.png" alt="" /></a>
+            
+            <h1 class="name-brand">Japan Travel</h1>
+          </div>
+          <!-- button on header -->
+          <ul id="nav-bar-header">
+            <li><a href="../index.html" class="btn-nav">Home</a></li>
+            <li><a class="btn-nav" href="">Tour</a></li>
+            <!-- hover on Destination -->
+            <li>
+              <a class="destination-btn" class="btn-nav" href="">Destination</a>
+              <div class="sub-menu-destination">
+                <div class="sub-menu">
+                  <span>All Destination</span>
+                  <i class="fa-solid fa-arrow-right" style="color: #ff780a"></i>
+                </div>
+                <div class="sub-menu">The Golden Route Japan Tour</div>
+                <div class="sub-menu">The Golden Triangle of Japan</div>
+                <div class="sub-menu">Best of Japan Tour</div>
+                <div class="sub-menu">Signature: Essence of Japan</div>
+                <div class="sub-menu">Luxury Japan Tour</div>
+              </div>
+            </li>
+            <!-- end of Destination -->
+            <li><a class="btn-nav" href="">Blog</a></li>
+            <li>
+              <a class="page-btn btn-nav" href="">Page</a>
+              <div class="sub-menu sub-menu-page">
+                <div>About us</div>
+              </div>
+            </li>
+            <li><a class="btn-nav" href="">Contact</a></li>
+          </ul>
+          <!-- phone,search,user -->
+          <div id="header-populated">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <span><p class="phone-number">0242 242 0777</p></span>
+            <div id="search-user">
+              <span><i class="fa-solid fa-magnifying-glass"></i></span>
+              <span><i class="fa-regular fa-user"></i></span>
+            </div>
+          </div>
+        </section>
+    </div>
+    
+
+    <!-- start signin -->
+    <div class="signin">
+        <div class="container">
+            <div class="wrapper">
+                <div class="form-wrap">
+                    <div class="form-sign">
+                        <div class="form-sign-title">
+                            <h2 style="margin-bottom: 8px;">Welcome to</h2>
+                            <h1 style="font-size: 50px;">Japan Travel</h1>
+                        </div>
+
+                        <div class="pick-btn">
+                            <div class="pick-login">
+                                <a href="./sign-in.html">Login</a>
+                            </div>
+                            <div class="pick-resister">
+                                <a href="./resister.html">Resister</a>
+                            </div>
+                        </div>
+                            <!-- LOGIN -->
+                            <form id="login-form" class="form-space" action="">
+                                <div class="username" style="margin-bottom: 16px;">
+                                    <p>Phone number or email</p>
+                                    <input type="text" placeholder="Account">
+                                </div>
+                                <div class="password" style="margin-bottom: 16px;">
+                                    <p>Password</p>
+                                    <input type="password" placeholder="Password">
+                                </div>
+                                <button class="btn-login">Login</button>
+                                <div class="form-divide">
+                                    <span>Or</span>
+                                </div>
+                                <div class="face-gmail">
+                                    <div class="face" style="background-color: rgb(16, 38, 238);">
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <br>
+                                        <span>Continue with Facebook</span>
+                                    </div>
+                                    <div class="gmail" style="background-color: #d74449;">
+                                        <i class="fa-solid fa-g"></i>
+                                        <br>
+                                        <span>Continue with Gmail</span>
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- end LOGIN -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

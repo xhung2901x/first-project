@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url("./user-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* fixed header from img */
+.body0 #header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 86px;
+  padding: 0 15px;
+  display: flex;
+  cursor: pointer;
+  box-shadow: 0 0.3px #000;
+  justify-content: space-evenly;
+  background-color: #f1f1f1;
+  z-index: 2;
+}
+
+.body0 #header .brand {
+  display: flex;
+}
+
+.body0 #header .logo-brand {
+  padding: 10px;
+  height: 86px;
+}
+
+.body0 #header .name-brand {
+  color: #000;
+  line-height: 86px;
+}
+
+.body0 #nav-bar-header {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body0 #nav-bar-header li {
+  list-style-type: none;
+  font-family: "Jost", sans-serif;
+}
+
+.body0 #nav-bar-header li a {
+  color: #000;
+  text-decoration: none;
+  line-height: 86px;
+  padding: 0 25px;
+  font-size: 15px;
+}
+
+.body0 #nav-bar-header li a {
+  text-transform: uppercase;
+}
+
+.body0 #nav-bar-header .destination-btn {
+  position: relative;
+  display: flex;
+}
+
+.body0 #nav-bar-header li .sub-menu-destination {
+  position: absolute;
+  background-color: #fff;
+  padding: 16px 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: none;
+  border: 1px solid #ccc;
+  z-index: 12;
+}
+
+/* ///hover color:orange/// */
+.body0 #nav-bar-header li:hover a,
+.body0 #search-user span:hover i,
+.body0 .sub-menu-destination div:hover,
+.body0 .sub-menu-page div:hover {
+  color: #e46d30;
+}
+
+.body0 #nav-bar-header li:hover a {
+  background-color: #ccc;
+  display: block;
+}
+
+/* hover hien sub-menu-destination */
+.body0 #nav-bar-header li:hover .sub-menu-destination {
+  display: block;
+  border: 0.5px solid #000;
+}
+
+.body0 li .sub-menu-destination .sub-menu,
+.body0 #nav-bar-header li .sub-menu {
+  padding: 18px;
+}
+
+/* ///page-btn/// */
+.body0 #nav-bar-header .page-btn {
+  position: relative;
+}
+
+.body0 #nav-bar-header li .sub-menu-page {
+  position: absolute;
+  background-color: #fff;
+  padding: 16px 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+/* ////hover hien sub-menu-page/// */
+.body0 #nav-bar-header li:hover .sub-menu-page {
+  display: block;
+}
+
+/* ////phone,search,user// */
+.body0 #header-populated {
+  font-size: 25px;
+  line-height: 86px;
+  display: flex;
+  color: #000;
+}
+.body0 #header-populated i {
+  line-height: 86px;
+  padding: 0 10px;
+}
+
+.body0 #header-populated .phone-number {
+  font-size: 15px;
+}
+
+.body0 #header-populated #search-user {
+  padding: 0 10px;
+}
+/* end body0 */
+
+/* start signin */
+.signin {
+    position: relative;
+    top: 120px;
+}
+
+.signin .container {
+    padding: 0 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin .wrapper {
+    text-align: center;
+    padding: 60px 0;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    margin-bottom: 120px;
+    position: relative;
+    height: 740px;
+}
+
+.signin .form-wrap {
+    width: 550px;
+}
+
+.signin .form-sign {
+    width: 370px;
+    margin: 0 auto;
+}
+
+/* form-sign-title */
+.signin .form-sign-title {
+    margin: 0 0 24px;
+}
+
+/* pick-btn */
+.signin .pick-btn {
+    width: 100%;
+    padding: 16px;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 32px;
+    gap: 10px;
+}
+
+.signin .pick-btn .pick-login,
+.signin .pick-btn .pick-resister {
+    width: 50%;
+    padding: 16px;
+    border-radius: 5px;
+    border: 0.2px solid #000000;
+}
+
+.signin .pick-btn a {
+    text-decoration: none;
+    color: #000;
+}
+
+.signin .pick-btn .pick-login {
+    background-color: #e46d30;
+    color: #fff;
+  }
+
+.pick-btn .pick-login:hover,
+.pick-btn .pick-resister:hover {
+    background-color: #e46d30;
+    cursor: pointer;
+}
+
+.pick-btn .pick-login:hover a,
+.pick-btn .pick-resister:hover a {
+    color: #fff;
+}
+
+
+
+/* login-form */
+.signin #login-form {
+    text-align: left;
+    /* display: none; */
+}
+
+.signin .form-space p {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.signin .form-space input {
+    padding: 6px 12px;
+    width: 100%;
+    line-height: 2;
+    border: 1px solid #000;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.signin #login-form .btn-login {
+    background-color: #d74449;
+    color: #fff;
+    padding: 16px 12px;
+    width: 100%;
+    cursor: pointer;
+    margin: 0 50px 10px 0;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+
+.signin #login-form .form-divide {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* face-gmail */
+.signin .face-gmail {
+    width: 100%;
+    display: flex;
+    gap: 10px   ;
+    font-size: 18px;
+}
+
+.signin .face-gmail .face,
+.signin .face-gmail .gmail {
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+
+
+

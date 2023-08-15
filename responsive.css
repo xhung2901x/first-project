@@ -1,0 +1,42 @@
+@media only screen and (min-width:901px) and (max-width:1600px)  {
+        .body1 .picture-box-info-container {
+            width: 90vw;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 100px;
+        }
+    
+        .body2 .picture-box-container {
+            width: 90vw;
+        }
+
+}
+
+@media only screen and (min-width:1601px) and (max-width:1920px) {
+    .body1 .picture-box-info-container {
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+
+    .body2 .picture-box-container {
+        width: 80vw;
+    }
+
+
+}
+
+
+@media only screen and (min-width:1921px) and (max-width:2440px) {
+    .body1 .picture-box-info-container {
+        width: 70vw;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+
+    .body2 .picture-box-container {
+        width: 70vw;
+    }
+}

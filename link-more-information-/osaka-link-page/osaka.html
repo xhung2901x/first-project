@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./osaka.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- BÀI TẬP LỚN -->
+
+    <!-- PHẦN ĐẦU -->
+<!-- Hết phần đầu -->
+<!-- body 0 -->
+    <!-- header + slider + search box -->
+    <div class="body0" id="homepage">
+        <!-- header -->
+        <section id="header">
+          <div class="brand">
+            <a href="../../index.html">
+              <img class="logo-brand" src="./img/logo.png" alt="" />
+            </a>
+            <h1 class="name-brand">Japan Travel</h1>
+          </div>
+          <!-- button on header -->
+          <ul id="nav-bar-header">
+            <li><a class="btn-nav" href="../../index.html">Home</a></li>
+            <li><a class="btn-nav" href="">Tour</a></li>
+            <!-- hover on Destination -->
+            <li>
+              <a class="destination-btn" class="btn-nav" href="">Destination</a>
+              <div class="sub-menu-destination">
+                <div class="sub-menu">
+                  <span>All Destination</span>
+                  <i class="fa-solid fa-arrow-right" style="color: #ff780a"></i>
+                </div>
+                <div class="sub-menu">The Golden Route Japan Tour</div>
+                <div class="sub-menu">The Golden Triangle of Japan</div>
+                <div class="sub-menu">Best of Japan Tour</div>
+                <div class="sub-menu">Signature: Essence of Japan</div>
+                <div class="sub-menu">Luxury Japan Tour</div>
+              </div>
+            </li>
+            <!-- end of Destination -->
+            <li><a class="btn-nav" href="">Blog</a></li>
+            <li>
+              <a class="page-btn btn-nav" href="">Page</a>
+              <div class="sub-menu sub-menu-page">
+                <div>About us</div>
+              </div>
+            </li>
+            <li><a class="btn-nav" href="">Contact</a></li>
+          </ul>
+          <!-- phone,search,user -->
+          <div id="header-populated">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <span><p class="phone-number">0242 242 0777</p></span>
+            <div id="search-user">
+              <span><i class="fa-solid fa-magnifying-glass"></i></span>
+              <a href="../../link-sign-in/sign-in.html" class="user-link" title="Sign In"><span><i class="fa-regular fa-user"></i></span></a>
+            </div>
+          </div>
+        </section>
+        <!-- slider -->
+        <section id="slider">
+          <!-- button next and prev -->
+            <i class="slider-prev fa-solid fa-circle-arrow-left"></i>
+          <!-- img and text -->
+          <div class="slider-wrapper">
+            <div class="slider-main">
+  
+              <div class="slider-item">
+                <div class="text">
+                  <h2>Amazing Tour</h2>
+                  <h1>Tokyo</h1>
+                  <div class="review">
+                    <span>1244 reviews |
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      4,5/5
+                    </span>
+                    <br>
+                    <button class="movepage">
+                      <a href="">Take Me There
+                      <i class="fa-solid fa-arrow-right" style="color: #000"></i>
+                    </a>
+                    </button>
+                  </div>
+                </div>
+              <img class="slide-img" src="./img/slider/tokyo.png" alt="" />
+            </div>
+  
+            <div class="slider-item">
+              <img class="slide-img" src="./img/slider/osaka.png" alt="" />
+              <div class="text">
+                <h2>Amazing Tour</h2>
+                <h1>Osaka</h1>
+                <div class="review">
+                  <span>1023 reviews |
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      4,5/5
+                  </span>
+                  <br>
+                    <button class="movepage">
+                      <a href="">Take Me There
+                      <i class="fa-solid fa-arrow-right" style="color: #000"></i>
+                    </a>
+                    </button>
+                </div>
+              </div>
+            </div>
+  
+            <div class="slider-item">
+              <img class="slide-img" src="./img/slider/nara.png" alt="" />
+              <div class="text">
+                <h2>Amazing Tour</h2>
+                <h1>Nara</h1>
+                <div class="review">
+                  <span>1496 reviews |
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      4,5/5
+                  </span>
+                  <br>
+                    <button class="movepage">
+                      <a href="">Take Me There
+                        <i class="fa-solid fa-arrow-right" style="color: #000"></i>
+                      </a>
+                    </button>
+                </div>
+              </div>
+        
+            </div>
+  
+            <div class="slider-item">
+              <img class="slide-img" src="./img/slider/kyoto.png" alt="" />
+              <div class="text">
+                <h2>Amazing Tour</h2>
+                <h1>Kyoto</h1>
+                <div class="review">
+                  <span>1742 reviews |
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      4,5/5
+                  </span>
+                  <br>
+                    <button class="movepage">
+                      <a href="">Take Me There
+                        <i class="fa-solid fa-arrow-right" style="color: #000"></i>
+                      </a>
+                    </button>
+                </div>
+              </div>
+        
+            </div>
+            </div>
+          </div>
+            <i class="slider-next fa-solid fa-circle-arrow-right"></i>
+        </section>
+        <!-- end of slider -->
+        </div>
+  <!-- end body0 -->
+  
+<!-- PHẦN THÂN -->
+<section class="body3">
+    <!-- cụm 1 -->
+          <section class="cum1">
+            <!-- phần nhỏ 1 -->
+            <div class="body3__smoll1">
+                <div class="body3__smoll1 body3--address">
+                    <span class="body3__smoll1 body3--tokyo">Osaka, Japan</span>
+                    <span class="body3__smoll1 body3--icon">
+                        <span class="body3__smoll1 body3--icon body3--smoll2">
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <span>Share</span>
+                        </span>
+                        <span class="body3__smoll1 body3--icon body3--smoll">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>Add to wishlist</span>
+                        </span>
+                    </span>
+                </div>
+                <h1>Tour to Osaka</h1>
+                <ul class="body3__smoll1 body3--from">
+                    <li class="body3__smoll1 body3--from body3--tag">
+                        <span class="body3__smoll1 body3--color">From</span>
+                        <span class="body3__smoll1 body3--181">$181</span>
+                    </li>
+                    <li class="body3__smoll1 body3--from body3--tag">
+                        <span class="body3__smoll1 body3--color">From</span>
+                        <span class="body3__smoll1 body3--100">7 days</span>
+                    </li>
+                    <li class="body3__smoll1 body3--from body3--tag">
+                        <span class="body3__smoll1 body3--color">Max People</span>
+                        <span class="body3__smoll1 body3--100">100</span>
+                    </li>
+                    <li class="body3__smoll1 body3--from body3--tag">
+                        <span class="body3__smoll1 body3--color">Min Age</span>
+                        <span class="body3__smoll1 body3--100">16+</span>
+                    </li>
+                    <li class="body3__smoll1 body3--from body3--tag">
+                        <span class="body3__smoll1 body3--color">Tour Type</span>
+                        <span class="body3__smoll1 body3--101">Honeymoon , Museum Tours</span>
+                    </li>
+                    <li class="body3__smoll1 body3--from body3--tag">
+                        <span class="body3__smoll1 body3--color">Reviews</span>
+                        <div class="body3__smoll1 body3--bigstar">
+                            <div class="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <span>4.78 /5</span>
+                        </div>
+                    </li>
+                </ul>
+                <div class="body3__smoll1 body3--img">
+                    <!-- <div class="body3__smoll1 body3--img body3--bigimg">
+                        <img src="https://thuthuatnhanh.com/wp-content/uploads/2021/06/hinh-anh-thap-Tokyo-Japan-1.jpg" width="800px" class="img--big" alt="ảnh tokyo">
+                        <span class="body3__smoll1 body3--img body3--smollimg1">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>GALLERY</span>
+                        </span>
+                        <span class="body3__smoll1 body3--img body3--smollimg2">
+                            <i class="fa-solid fa-video"></i>
+                            <span>VIDEO</span>
+                        </span>
+                    </div> -->
+                    <div class="body3__smoll1 body3--img body3--li">
+                        <ul class="body3__smoll1 body3--img body--changer">
+                            <li class="column">
+                                <img src="https://songhantourist.com/upload/articles-images/images/thanh-osaka-vua-hung-vi-vua-lang-man.jpg" width="120px" height="90px" class="botron" alt="OSAKA" onclick="myFunction(this);">
+                            </li>
+                            <li class="column">
+                                <img src="https://d20aeo683mqd6t.cloudfront.net/vi/articles/title_images/000/038/326/medium/shutterstock_1034177647_%281%29.jpg?2020" width="120px" height="90px" class="botron" alt="OSAKA" onclick="myFunction(this);">
+                            </li>
+                            <li class="column">
+                                <img src="https://toidi.net/wp-content/uploads/2021/09/osaka-co-gi-dep-8.jpg" width="120px" height="90px" class="botron" alt="OSAKA onclick="myFunction(this);">
+                            </li>
+                            <li class="column">
+                                <img src="https://wiki-travel.com.vn/Uploads/picture/thanhhuong-180319040309-Osaka.jpg" width="120px" height="90px" class="botron" alt="OSAKA" onclick="myFunction(this);">
+                            </li>
+                            <li class="column">
+                                <img src="https://i0.wp.com/www.betoreview.com/wp-content/uploads/2019/07/dotonbori-osaka-travel.jpg?resize=560%2C374&ssl=1" width="120px" height="90px" class="botron" alt="OSAKA" onclick="myFunction(this);">
+                            </li>
+                            <li class="column">
+                                <img src="https://songhantourist.com/upload/articles-images/images/su-hien-dai-sam-uat-cua-thanh-pho-osaka.jpg" width="120px" height="90px" class="botron" alt="OSAKA" onclick="myFunction(this);">
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="container">
+                        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                        <img id="expandedImg" style="width:100%">
+                        <div id="imgtext"></div>
+                    </div>
+    
+                </div>
+    
+                <div class="body3__smoll1 body3--btn">
+                    <div class="body3__smoll1 body3--down">
+                        <button class="body3__smoll1 body3--btn body3--btnsmoll">Overview</button>
+                    </div>
+                    <div class="body3__smoll1 body3--down">
+                        <button class="body3__smoll1 body3--btn body3--btnsmoll">Toul Plan</button>
+                    </div>
+                    <div class="body3__smoll1 body3--down">
+                        <button class="body3__smoll1 body3--btn body3--btnsmoll">Location</button>
+                    </div>
+                    <div class="body3__smoll1 body3--down">
+                        <button class="body3__smoll1 body3--btn body3--btnsmoll">Reviews</button>
+                    </div>
+                </div>
+            </div>
+        <!-- phần nhỏ 2 -->
+            <div class="body3__smoll2">
+                <h2>Description</h2>
+                     <p class="body3__smoll2 body3--document">Join the official Osaka Free Walking Tour!
+                        Find out why Osaka is called the “Kitchen of Japan” &
+                        learn about the unique Otaku culture.
+                        
+                        Travel back in time to the beginning of 20th century visiting the old New World of Osaka.
+                        
+                        Learn fun facts & stories that you won't find in a guide-book!</p>
+                     <p class="body3__smoll2 body3--document">Nipponbashi DenDen town could be a paradise on earth,
+                        with its numerous shops specialising in selling manga,
+                        anime goods, figurines, etc.</p>
+                     <p class="body3__smoll2 body3--document">Within 24 hours after booking you'll receive a short questionnaire about your personality and interests. Based on your responses, you'll be assigned a like-minded host. Your host will communicate with you directly to suggest an itinerary to help you discover what makes the city unique. You'll also agree on a meeting time and place. Your itinerary is flexible, so during the experience, you can always change your mind about what you want to do</p>
+                <div class="body3__smoll2 body3--btn">
+                        <span class="body3__smoll2 body3--view">View Less</span>
+                        <span class="body3__smoll2 body3--less">
+                            <i class="fa-solid fa-right-long"></i>
+                        </span>
+                </div>
+            </div>
+    
+        <!-- phần nhỏ 3 -->
+            <div class="body3__smoll3">
+                <div class="body3__smoll3 body3--point">
+                    <img src="https://media.istockphoto.com/id/1205335450/vi/vec-to/bi%E1%BB%83u-t%C6%B0%E1%BB%A3ng-bi%E1%BB%83n-ch%E1%BB%89-d%E1%BA%ABn-vector-c%E1%BB%99t-h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn.jpg?s=1024x1024&w=is&k=20&c=3BPbQnzAPspet97w2vK-_ecsJ3U0m29dMLgV4awRXIA=" width="200px" alt="ảnh cột chỉ đường">
+                </div>
+                <div class="body3__smoll3 body3--tittle1">
+                    <h2 id="high">Highlights</h2>
+                    <ul class="body3__smoll3 body3--tittle1 body3--cheking">
+                        <li class="body3__smoll3 body3--tittle1 body3--check">
+                            <span class="body3__fa-solid fa-check">
+                                <i class="fa-regular fa-circle-check"></i>
+                            </span>
+                            <span class="eleven">Nepal most popular climb.</span>
+                        </li>
+                        <li class="body3__smoll3 body3--tittle1 body3--check">
+                            <span class="body3__fa-solid fa-check">
+                                <i class="fa-regular fa-circle-check"></i>
+                            </span>
+                            <span class="eleven">Outstanding views of Mt. Everest, Mt. Lhotse, Mt. Makalu from the summit.</span>
+                        </li>
+                        <li class="body3__smoll3 body3--tittle1 body3--check">
+                            <span class="body3__fa-solid fa-check">
+                                <i class="fa-regular fa-circle-check"></i>
+                            </span>
+                            <span class="eleven">The perfect experience for adventurers!</span>
+                        </li>
+                        <li class="body3__smoll3 body3--tittle1 body3--check">
+                            <span class="body3__fa-solid fa-check">
+                                <i class="fa-regular fa-circle-check"></i>
+                            </span>
+                            <span class="eleven">5-day Prince Edward Island trip from Halifax</span>
+                        </li>
+                        <li class="body3__smoll3 body3--tittle1 body3--check">
+                            <span class="body3__fa-solid fa-check">
+                                <i class="fa-regular fa-circle-check"></i>
+                            </span>
+                            <span class="eleven">Explore scenic Prince Edward Island National Park</span>
+                        </li>
+                        <li class="body3__smoll3 body3--tittle1 body3--check">
+                            <span class="body3__fa-solid fa-check">
+                                <i class="fa-regular fa-circle-check"></i>
+                            </span>
+                            <span class="eleven">Overnight accommodation and all transport included</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+        <!-- phần nhỏ 4 -->
+            <div class="body3__calendar">
+                <h2 id="calendar">Calendar & Prices</h2>
+            </div>
+            <section class="body3__smoll4 body3--smollbig">
+                <div class="body3__smoll4">
+                    <h2>You May Also Like</h2>
+                    <div class="body3_smoll4 body3--img">
+                        <div class="body3__smoll4 body3--img body3--imgsmoll1">
+    
+                            <div class="body3__smoll4 body3--photo">
+                                <a href=""><img src="https://thuthuatnhanh.com/wp-content/uploads/2021/06/hinh-anh-thap-Tokyo-Japan-1.jpg" width="450px" height="320px" class="anhbe" alt="ảnh phố đêm"></a>
+                                <span id="body3--off">
+                
+                                </span>
+                            </div>
+    
+                            <div class="body3__smoll4 body3--img body3--link1">
+                                <span class="body3__smoll4 body3--abc1">Tokyo, Japan</span>
+                                <span class="body3__smoll4 body3--abc2">Tour To Tokyo</span>
+                                <span class="body3__smoll4 body3--abc3">
+                                    <span>
+                                        <span class="clock">
+                                            <i class="fa-solid fa-clock"></i>
+                                        </span>
+                                        <span class="body3__smoll4 body3--days">6 days</span>
+                                    </span>
+                                    <span>
+                                        <span class="star1">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="body3__smoll4 body3--days">4.63/5</span>
+                                    </span>                                         
+                                </span>
+                                <span class="body3__smoll4 body3--abc4">
+                                    <span>
+                                        <span class="body3__smoll4 body3--days">From</span>
+                                        <span class="clock">$181</span>
+                                    </span> 
+                                    <span>
+                                        <span class="morein">Moreinformation</span>
+                                        <span class="clock">
+                                            <i class="fa-solid fa-right-long"></i>
+                                        </span>
+                                    </span>
+                                </span>
+                            </div>
+    
+                        </div>
+        
+                        <div class="body3__smoll4 body3--img body3--imgsmoll2">
+                            <a href=""><img src="https://media.istockphoto.com/id/665877954/vi/anh/h%C6%B0%C6%A1u-ukimi.jpg?s=612x612&w=0&k=20&c=Sj8HF7I8gaYH6EF6ri3LQpo_3kC41WJCrjbNrqORk6M=" width="450px" height="320px" class="anhbe" alt="ảnh phố ngày"></a>
+                            <div class="body3__smoll4 body3--img body3--link2">
+                                <span class="body3__smoll4 body3--abc1">Nara, Japan</span>
+                                <span class="body3__smoll4 body3--abc2">Tour To Nara</span>
+                                <span class="body3__smoll4 body3--abc3">
+                                    <span>
+                                        <span class="clock">
+                                            <i class="fa-solid fa-clock"></i>
+                                        </span>
+                                        <span class="body3__smoll4 body3--days">6 days</span>
+                                    </span>
+                                    <span>
+                                        <span class="star1">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="body3__smoll4 body3--days">4.58/5</span>
+                                    </span>                                         
+                                </span>
+                                <span class="body3__smoll4 body3--abc4">
+                                    <span>
+                                        <span class="body3__smoll4 body3--days">From</span>
+                                        <span class="clock">$160</span>
+                                    </span> 
+                                    <span>
+                                        <span class="morein">Moreinformation</span>
+                                        <span class="clock">
+                                            <i class="fa-solid fa-right-long"></i>
+                                        </span>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+          </section>
+    
+          <section class="cum2">
+            <section class="cum2__book">
+                <h3 class="cum2__book cum2--h3">Book This Tour</h3>
+                <div class="cum2__book cum2--date">
+                    <span class="cum2__book cum2--days">
+                        <span class="cum2__book fa-calendar-days">
+                            <i class="fa-regular fa-calendar-days"></i>
+                        </span>
+                        <input class="cum2__book cum2--datesmoll" type="text" placeholder="When (Date)" >
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                </div>
+    
+                <div class="cum2__book cum2--time">
+                    <span>Time</span>
+                    <span class="cum2__book cum2--radio">
+                        <input name = time type="radio">
+                        <span>12:00</span>
+                    </span>
+                    <span class="cum2__book cum2--radio">
+                        <input name = time type="radio">
+                        <span>17:00</span>
+                    </span>
+                </div>
+    
+                <div class="cum2__book cum2--ticker">
+                    <div id="ticker">
+                        <span>Ticker</span>
+                    </div>
+                    <ul class="cum2__book cum2--ticker cum2--smoll">
+                        <li>
+                            <span>Adult (18+ years)</span><span id="so">$181</span>
+                            <span>
+                                <select class="cum2__book cum2--select">
+                                    <option class="cum2--smoll cum2--option" value="">0</option>
+                                    <option class="cum2--smoll cum2--option" value="">1</option>
+                                    <option class="cum2--smoll cum2--option" value="">2</option>
+                                    <option class="cum2--smoll cum2--option" value="">3</option>
+                                    <option class="cum2--smoll cum2--option" value="">4</option>
+                                    <option class="cum2--smoll cum2--option" value="">5</option>
+                                    <option class="cum2--smoll cum2--option" value="">6</option>
+                                    <option class="cum2--smoll cum2--option" value="">7</option>
+                                    <option class="cum2--smoll cum2--option" value="">8</option>
+                                    <option class="cum2--smoll cum2--option" value="">9</option>
+                                    <option class="cum2--smoll cum2--option" value="">10</option>
+                                </select>
+                            </span>
+                        </li>
+                        <li>
+                            <span>Children (0-12 years)</span><span id="so">$181</span>
+                            <span>
+                                <select class="cum2__book cum2--select">
+                                    <option class="cum2--smoll cum2--option" value="">0</option>
+                                    <option class="cum2--smoll cum2--option" value="">1</option>
+                                    <option class="cum2--smoll cum2--option" value="">2</option>
+                                    <option class="cum2--smoll cum2--option" value="">3</option>
+                                    <option class="cum2--smoll cum2--option" value="">4</option>
+                                    <option class="cum2--smoll cum2--option" value="">5</option>
+                                    <option class="cum2--smoll cum2--option" value="">6</option>
+                                    <option class="cum2--smoll cum2--option" value="">7</option>
+                                    <option class="cum2--smoll cum2--option" value="">8</option>
+                                    <option class="cum2--smoll cum2--option" value="">9</option>
+                                    <option class="cum2--smoll cum2--option" value="">10</option>
+                                </select>
+                            </span>
+                        </li>
+                        <li>
+                            <span>Youth (13-17 years)</span><span id="so">$172</span>
+                            <span>
+                                <select class="cum2__book cum2--select">
+                                    <option class="cum2--smoll cum2--option" value="">0</option>
+                                    <option class="cum2--smoll cum2--option" value="">1</option>
+                                    <option class="cum2--smoll cum2--option" value="">2</option>
+                                    <option class="cum2--smoll cum2--option" value="">3</option>
+                                    <option class="cum2--smoll cum2--option" value="">4</option>
+                                    <option class="cum2--smoll cum2--option" value="">5</option>
+                                    <option class="cum2--smoll cum2--option" value="">6</option>
+                                    <option class="cum2--smoll cum2--option" value="">7</option>
+                                    <option class="cum2--smoll cum2--option" value="">8</option>
+                                    <option class="cum2--smoll cum2--option" value="">9</option>
+                                    <option class="cum2--smoll cum2--option" value="">10</option>
+                                </select>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+    
+    
+    
+                <div class="cum2__book cum2--extra">
+                    <div id="cum2--ser">Extra services</div>
+                    <div class="cum2__book cum2--extra cum2--book1">
+                        <span>
+                            <span class="cum2__book cum2--check4">
+                                <input type="checkbox" >
+                            </span>
+                            <span class="cum2--per1">Service per booking</span>
+                            <div class="abc">Lorem ipsum dolor sit amet, utinam munere antiopam vel ad. Qui eros iusto te. Nec ad feugiat honestatis. Quo illum detraxit an. Ius eius quodsi molestiae at, nostrum definitiones his cu. Discere referrentur mea id, an pri novum possim deterruisset. Eum oratio reprehendunt cu. Nec te quem assum postea.</div>
+                        </span>
+                        <span class="cum2--per2">$30</span>
+                    </div>
+                    <div class="cum2__book cum2--extra cum2--book2">
+                        <span>
+                            <span class="cum2__book cum2--check4">
+                                <input type="checkbox">
+                            </span>
+                            <span class="cum2--per1">Service per booking</span>
+                            <div class="abc">Lorem ipsum dolor sit amet, utinam munere antiopam vel ad. Qui eros iusto te. Nec ad feugiat honestatis. Quo illum detraxit an. Ius eius quodsi molestiae at, nostrum definitiones his cu. Discere referrentur mea id, an pri novum possim deterruisset. Eum oratio reprehendunt cu. Nec te quem assum postea.</div>
+                        </span>
+                        <span class="cum2--per1">Adult:</span>
+                        <span class="cum2--per2">$17</span>
+                        <span class="cum2--per1">Youth:</span>
+                        <span class="cum2--per2">$14</span>
+                    </div>
+                    <div class="cum2__book cum2--extra cum2--book3">
+                        <span class="cum2--per1">Children:</span>
+                        <span class="cum2--per2">free</span>
+                    </div>
+                </div>
+    
+                <div class="cum2__book cum2--total">
+                    <div class="cum2__book cum2--smoll1">
+                        <span class="cum2__book cum2--tit1">Total</span>
+                        <span class="cum2__book cum2--tit2">$0</span>
+                    </div>
+                    <div class="cum2__book cum2--smoll2">
+                        <span class="cum2__book cum2--but1">
+                            <span>Book now</span>
+                        </span>
+                        <span class="cum2__book cum2--but2">
+                            <i class="fa-solid fa-right-long"></i>
+                        </span>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="cum2__img">
+                <div class="cum2__img cum2--big1">
+                    <img src="https://img4.thuthuatphanmem.vn/uploads/2020/12/26/anh-nen-nhat-ban-hoang-hon_125910670.jpg" width="400px" alt="ảnh đẹp">
+                </div>
+    
+                <div class="cum2__img cum2--big2">
+                    <div class="cum2__img cum2--stay1">
+                        <h4>HAPPY HOLIDAY</h4>
+                    </div>
+                    <div class="cum2__img cum2--stay2">
+                        <h2>Stay & Enjoy</h2>
+                    </div>
+                    <div class="cum2__img cum2--stay3">
+                        <h3>15% off on all booking</h3>
+                    </div>
+                    <div class="cum2__img cum2--stay4">
+                        <span>Book Now</span>
+                        <span>
+                            <i class="fa-solid fa-right-long"></i>
+                        </span>
+                    </div>
+                </div>
+             </section>
+          </section>
+        </section>
+    <!-- HẾT PHẦN THÂN -->
+    
+    <!-- PHẦN KẾT -->
+        <section class="end">
+            <div class="end__smoll">
+                <div class="end__smoll1">
+                    <h3>Sign Up for Our Newsletter</h3>
+                    <p>Save up to 50% on tours and trips. Get instant access to lower prices.</p>
+                    <div class="end__smoll1 end--text">
+                        <span class="end__smoll1 end--input">
+                            <input type="text" placeholder="Enter your email address">
+                        </span>
+                        <span class="end__smoll1 end--bigicons">
+                            <span class="end__smoll1 end--sub">Subcribe</span>
+                            <span class="fa-solid end--icons">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+       
+                <div class="end__smoll2">
+                    <h3>24/7 Customer Support</h3>
+                    <p>Contact us now to have all of your tour-related question answered.</p>
+                    <div class="end__smoll2 end--changer">
+                        <div class="end__smoll2 end--img">
+                            <ul class="end__smoll2 end--ul">
+                                <li class="end__smoll2 end--li">
+                                    <img src="https://kenhtamly.net/uploads/dongtoico/maishiomi/maishiomi04.jpg" class="end__smoll2 end--botron" width="60px" height="60px" alt="ảnh">
+                                </li>
+                                <li class="end__smoll2 end--li">
+                                    <img src="https://png.pngtree.com/background/20230426/original/pngtree-japanese-asian-girl-photo-picture-image_2487019.jpg" class="end__smoll2 end--botron" width="60px" height="60px" alt="ảnh">
+                                </li>
+                                <li class="end__smoll2 end--li">
+                                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230426/pngtree-little-japanese-girl-in-colorful-asian-with-a-basket-image_2522525.png" class="end__smoll2 end--botron" width="60px" height="60px" alt="ảnh">
+                                </li>
+                                <li class="end__smoll2 end--li">
+                                    <img src="https://nhatban.net.vn/wp-content/uploads/12791026.jpg" class="end__smoll2 end--botron" width="60px" height="60px" alt="ảnh">
+                                </li>
+                                <li class="end__smoll2 end--li">
+                                    <img src="https://nhatban.net.vn/wp-content/uploads/18224-k7cseo5an8.jpg" class="end__smoll2 end--botron" width="60px" height="60px" alt="ảnh">
+                                </li>
+                            </ul>
+                        </div>
+                        <span class="end__smoll2 end--btn">
+                            <span>Chat now</span>
+                            <span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                        </span>
+    
+                    </div>
+                </div>
+            </div>
+    
+           <div class="end__smoll3">
+                <div class="end__smoll3 end--list1">
+                    <div class="end__smoll3 end--cot1">
+                        <div class="end__smoll3 end--bigtop1">DESTINATIONS</div>
+                        <div>
+                            <ul>
+                                <li class="tinh">OKINAWA</li>
+                                <li class="tinh">HOKKAIDO</li>
+                                <li class="tinh">KYOTO</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="end__smoll3 end--cot2">
+                        <ul>
+                            <li class="thanhpho">OSAKA</li>
+                            <li class="thanhpho">TOKYO</li>
+                            <li class="thanhpho">NARA</li>
+                        </ul>
+                    </div>
+    
+                    <div class="end__smoll3 end--cot3">
+                        <div class="end__smoll3 end--bigtop2">COMPANY</div>
+                        <div>
+                            <ul>
+                                <li class="tinh">About us</li>
+                                <li class="tinh">Contact us</li>
+                                <li class="tinh">Travel Guides</li>
+                                <li class="tinh">Data Policy</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="end__smoll3 end--cot4">
+                        <div class="end__smoll3 end--bigtop3">COMMUNITY</div>
+                        <div>
+                            <ul>
+                                <li class="tinh">Adventure</li>
+                                <li class="tinh">Celebration</li>
+                                <li class="tinh">Culinary</li>
+                                <li class="tinh">Family</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+           
+    
+                <div class="end__smoll3 end--list2">
+                    <div class="end__smoll3 end--tik">
+                        <img id="logo" src="https://github.com/letruong31/bookingweb/blob/master/home/img/logo.png?raw=true" width="80px" alt="ảnh">
+                        <span id="tiktok">JAPAN</span>
+                    </div>
+                    <p id="p1">4th floor, 128 Minh Khai street, Hai Ba Trung districht, Ha Noi</p>
+                    <p id="p2">(012) 3456 789</p>
+                    <p id="p3">abcxyz@gmail.vn</p>
+                </div>
+           </div>
+    
+           <div class="end__smoll4">
+               <div class="end__smoll4 end--div1">
+                   <p>© 2023<strong>Japan</strong>.All rights reserved.</p>
+               </div>
+               <div class="end__smoll4 end--div2">
+                    <a href="">Terms & Conditions</a>
+                    <a href="">Cookies</a>
+                    <a href="">Privacy Policy</a>
+               </div>
+               <div class="end__smoll4 end--div3">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+               </div>
+           </div>
+        </section>
+    <!-- HẾT PHẦN KẾT -->
+      <div id="backtop">
+        <i class="fa-solid fa-chevron-up"></i>
+      </div>
+    <!-- </section>  -->
+</body>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            if($(this).scrollTop()) {
+                $('#backtop').fadeIn();
+            } else{
+                $('#backtop').fadeOut();
+            }   
+        });
+        $('#backtop').click(function(){
+            $('html ,body').animate({
+                scrollTop: 0
+            }, 1000);
+        });
+    });
+
+    function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+<!-- JS chay Slider -->
+<script>
+    // slider show move
+window.addEventListener("load", function () {
+    const slider = document.querySelector("#slider");
+    const sliderMain = document.querySelector(".slider-main");
+    const sliderItems = document.querySelectorAll(".slider-item");
+    const nextBtn = document.querySelector(".slider-next");
+    const prevBtn = document.querySelector(".slider-prev");
+    const sliderItemWidth = sliderItems[0].offsetWidth;
+    const slidesLength = sliderItems.length;
+    let positionX = 0;
+    let index = 0;
+  
+    nextBtn.addEventListener("click", function () {
+      changeSlide(1);
+    });
+  
+    prevBtn.addEventListener("click", function () {
+      changeSlide(-1);
+    });
+  
+    function changeSlide(direction) {
+      if (direction === 1) {
+        if (index >= slidesLength - 1) {
+          index = slidesLength - 1;
+          return;
+        }
+        positionX = positionX - sliderItemWidth;
+        sliderMain.style = `transform: translateX(${positionX}px)`;
+        index++;
+      } else if (direction === -1 && direction !== 0) {
+        if (index <= 0) {
+          index = 0;
+          return;
+        }
+        positionX = positionX + sliderItemWidth;
+        sliderMain.style = `transform: translateX(${positionX}px)`;
+        index--;
+      }
+    }
+  });
+</script>
+<!-- End JS chay Slider -->
+</html>
